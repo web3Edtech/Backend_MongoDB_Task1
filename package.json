@@ -1,12 +1,21 @@
 {
-  "name": "fetch-user-data-task",
+  "name": "movie-crud",
   "version": "1.0.0",
-  "description": "Task to fetch user data using Promises and Fetch API.",
-  "main": "fetchUserData.js",
+  "description": "A Node.js project for MongoDB CRUD operations on a movie collection",
+  "main": "index.js",
   "scripts": {
-    "start": "node fetchUserData.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NFThing",
+  "keywords": [
+    "MongoDB",
+    "Node.js",
+    "CRUD",
+    "Movies"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "mongodb": "^5.6.0"
+  }
 }
